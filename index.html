@@ -3,7 +3,7 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>Angular 2 Quickstart</title>
-        <script src="/quickstart/dist/es6-shim.js"></script>
+        <script src="quickstart/dist/es6-shim.js"></script>
     </head>
     <body>
         <!-- The app component created in app.es6 -->
@@ -12,8 +12,8 @@
         <script>
             // Rewrite the paths to load the files
             System.paths = {
-                'angular2/*':'/quickstart/angular2/*.js', // Angular
-                'rtts_assert/*': '/quickstart/rtts_assert/*.js', // Runtime assertions
+                'angular2/*':'quickstart/angular2/*.js', // Angular
+                'rtts_assert/*': 'quickstart/rtts_assert/*.js', // Runtime assertions
                 'app': 'app.js' // The my-app component
             };
 
