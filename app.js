@@ -13,4 +13,4 @@ class MyAppComponent {
         this.name = 'Alice'
     }
 }
-bootstrap(MyAppComponent)
+bootstrap(MyAppComponent);
