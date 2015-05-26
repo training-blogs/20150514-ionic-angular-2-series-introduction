@@ -10,7 +10,7 @@ import {Component, Template, bootstrap} from 'angular2/angular2';
 // Component controller
 class MyAppComponent {
     constructor() {
-        this.name = 'Alice'
+        this.name = 'Alice';
     }
 }
 bootstrap(MyAppComponent);
